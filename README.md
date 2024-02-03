@@ -1,39 +1,39 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+![Pub Points](https://img.shields.io/pub/points/mime_type_extension) ![Static Badge](https://img.shields.io/badge/Dart_Analyze-Pass-blue) ![Static Badge](https://img.shields.io/badge/License-MIT-purple?link=https%3A%2F%2Fgithub.com%2Fcodebox168%2Fmime_type_ext%2Fblob%2Fmain%2FLICENSE)
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Convert mime_type to extension 
+* Convert extension to mime_type.
+#### Support `600+` extensions and mime_types.
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Import `mime_type_extension` package.
+
+```dart
+import 'package:mime_type_extension/mime_type_extension.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+#### Convert mime_type to extension
 
 ```dart
-const like = 'sample';
+String mimeType = 'application/json';
+final ext = MimeTypeExtension.instance.mimeTypeToExtension(mimeType);
+print(ext); // ".json"
+```
+#### Convert extension to mime_type
+
+```dart
+String ext = '.mp4';
+final mimeType = MimeTypeExtension.instance.extensionToMimeType(ext);
+print(mimeType); // "video/mp4"
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+If you like this this package please like and give star on [Github](https://github.com/codebox168/mime_type_ext)
+If you have issue with this package please create issue on [Github](https://github.com/codebox168/mime_type_ext)
+Contact [Author](https://www.facebook.com/kememsothea)
