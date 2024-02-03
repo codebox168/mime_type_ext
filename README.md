@@ -34,6 +34,6 @@ print(mimeType); // "video/mp4"
 
 ## Additional information
 
-If you like this this package please like and give star on [Github](https://github.com/codebox168/mime_type_ext)
-If you have issue with this package please create issue on [Github](https://github.com/codebox168/mime_type_ext)
+If you like this this package please like and give star on [Github](https://github.com/codebox168/mime_type_ext)\
+If you have issue with this package please create issue on [Github](https://github.com/codebox168/mime_type_ext)\
 Contact [Author](https://www.facebook.com/kememsothea)
