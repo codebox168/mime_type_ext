@@ -1,19 +1,9 @@
 name: mime_type_extension
-description: Convert extension to mime type and mime type to extension.
-version: 0.0.1
+description: Convert extension to mime type and mime type to extension and return it as String, Support 600+ types.
+version: 0.0.2
 homepage: https://github.com/codebox168/mime_type_ext
 maintainer: Kem Emsothea
 repository: https://github.com/codebox168/mime_type_ext
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
-  flutter: ">=1.17.0"
-
-dependencies:
-  flutter:
-    sdk: flutter
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^3.0.0
